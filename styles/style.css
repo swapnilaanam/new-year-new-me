@@ -27,7 +27,7 @@
 
 .banner {
     text-align: right;
-    padding: 215px 220px 0px 845px; 
+    padding: 215px 220px 0px 845px;
 }
 
 .banner .title {
@@ -40,4 +40,52 @@
     color: #444343;
     margin-top: 24px;
     margin-bottom: 32px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*  my-failure styles */
+
+.my-failure {
+    display: flex;
+    gap: 89px;
+    margin-right: 70px;
+}
+
+.my-failure img {
+    margin-top: 130px;
+}
+
+.my-failure .content {
+    margin-top: 422px;
+}
+
+.content h3 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.content p {
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.content > ul {
+    padding: 0;
+}
+
+.content ul > li {
+    color: #444343;
+    margin-top: 8px;
+    list-style: none;
+}
+
+.content li > i {
+    color: #16D887;
+    margin-right: 12px;
 }
