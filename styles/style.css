@@ -27,7 +27,9 @@
 
 .banner {
     text-align: right;
-    padding: 215px 220px 0px 845px;
+    margin-left: 830px;
+    margin-right: 215px;
+    padding-top: 215px;
 }
 
 .banner .title {
@@ -75,17 +77,50 @@ main {
     margin-bottom: 16px;
 }
 
-.content > ul {
+.content>ul {
     padding: 0;
 }
 
-.content ul > li {
+.content ul>li {
     color: #444343;
     margin-top: 8px;
     list-style: none;
 }
 
-.content li > i {
+.content li>i {
     color: #16D887;
     margin-right: 12px;
 }
+
+/* my-plan styles */
+
+.my-plan {
+    margin-top: 130px;
+}
+
+.my-plan>h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans {
+    display: flex;
+    text-align: center;
+    gap: 85px;
+    margin-top: 62px;
+}
+
+.plan .title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.plan .sub-title {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
