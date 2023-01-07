@@ -124,3 +124,30 @@ main {
     font-size: 25px;
 }
 
+/* call-now styles */
+
+.call-now {
+    margin-top: 130px;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+}
+
+.call-now-banner {
+    padding: 60px 0;
+    margin-left: 64px;
+    margin-right: 617px;
+}
+
+.call-now-banner h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.call-now-banner button {
+    background-color: white;
+    color: #F15B22;
+    padding: 20px 35px;
+}
