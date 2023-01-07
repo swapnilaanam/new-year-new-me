@@ -106,6 +106,7 @@ main {
 
 .plans {
     display: flex;
+    justify-content: center;
     text-align: center;
     gap: 85px;
     margin-top: 62px;
@@ -128,8 +129,11 @@ main {
 
 .call-now {
     margin-top: 130px;
-    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-image:  linear-gradient(to right, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-blend-mode: normalcommit;
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
 }
 
 .call-now-banner {
