@@ -16,7 +16,7 @@
 }
 
 
-/* header styles */
+/* header and banner styles */
 
 .header {
     background-image: url('../images/banner/banner1.png');
@@ -28,8 +28,8 @@
 .banner {
     text-align: right;
     margin-left: 830px;
-    margin-right: 215px;
-    padding-top: 215px;
+    margin-right: 200px;
+    padding-top: 200px;
 }
 
 .banner .title {
@@ -40,6 +40,7 @@
 
 .banner .sub-title {
     color: #444343;
+    line-height: 26px;
     margin-top: 24px;
     margin-bottom: 32px;
 }
@@ -48,6 +49,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 
 /*  my-failure styles */
 
@@ -62,7 +64,7 @@ main {
 }
 
 .my-failure .content {
-    margin-top: 422px;
+    margin-top: 362px;
 }
 
 .content h3 {
@@ -73,6 +75,7 @@ main {
 
 .content p {
     color: #444343;
+    line-height: 26px;
     margin-top: 24px;
     margin-bottom: 16px;
 }
@@ -83,14 +86,16 @@ main {
 
 .content ul>li {
     color: #444343;
-    margin-top: 8px;
+    margin-bottom: 8px;
     list-style: none;
+    line-height: 26px;
 }
 
 .content li>i {
     color: #16D887;
     margin-right: 12px;
 }
+
 
 /* my-plan styles */
 
@@ -115,7 +120,7 @@ main {
 .plan .title {
     font-weight: 700;
     font-size: 30px;
-    margin-top: 12px;
+    margin-top: 24px;
     margin-bottom: 16px;
 }
 
@@ -125,12 +130,13 @@ main {
     font-size: 25px;
 }
 
+
 /* call-now styles */
 
 .call-now {
     margin-top: 130px;
     background-image:  linear-gradient(to right, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
-    background-blend-mode: normalcommit;
+    background-blend-mode: normal;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -201,6 +207,7 @@ article > p {
     color: #444343;
 }
 
+
 /* footer styles */
 
 .footer {
@@ -213,7 +220,7 @@ article > p {
 .container {
     display: flex;
     gap: 330px;
-    padding: 130px 230px;
+    padding: 130px 200px;
 }
 
 .contact {
@@ -258,7 +265,7 @@ article > p {
 }
 
 .newsletter input[type="email"] {
-    width: 100%;
+    width: 93%;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     padding: 20px 0;
